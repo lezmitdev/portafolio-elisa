@@ -1,0 +1,19 @@
+.redes{
+    display: flex;
+    gap: 1rem;
+}
+.redes a{
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--black);
+    background: var(--primary);
+    color: var(--black);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+}
+.redes a img{
+    vertical-align: middle;
+}

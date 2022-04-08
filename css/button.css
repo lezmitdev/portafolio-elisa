@@ -1,0 +1,23 @@
+.btn{
+    border: 2px solid var(--black) ;
+    font: var(--button);
+    border-radius: 5.625rem;
+    padding-block-start: .6875rem;
+    padding-block-end: .6875rem;
+    padding-inline-start: 1.375rem;
+    padding-inline-end: 1.375rem;
+   text-transform: uppercase;
+}
+.btn i{
+    font-size: 1.5rem;
+}
+.btn.is-primary{
+    background: var(--primary);
+
+}
+.btn.is-secondary{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
