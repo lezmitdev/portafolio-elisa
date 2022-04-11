@@ -1,11 +1,19 @@
+@import './font.css';
 @import './button.css';
 @import './header.css';
 @import './wrapper.css';
 @import './redes.css';
 @import './hero.css';
+@import './phrase.css';
+@import './title.css';
+@import './project.css';
+@import './coment.css';
+@import './form.css';
+@import './footer.css';
 :root { 
   --black: #0f0a0a; 
   --primary: #42e2b8; 
+  --white: #fff;
   --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%); 
   --headline1: 700 5.9375rem/9.6068754196167rem Oxygen; 
   --headline2: 700 3.6875rem/5.96637487411499rem Oxygen; 
@@ -19,7 +27,7 @@
 }
 
 body {
-  color: var(--white);
+  color: var(--black);
   /* background-color: var(--primary); */
   background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);;
   font: var(--body1);  

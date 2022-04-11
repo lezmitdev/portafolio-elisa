@@ -1,35 +1,6 @@
+@import './header-content.css';
 .header{
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
-}
-
-.header-content{
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
-
-.header-content logo img{
-    inline-size: 4.375rem;
-    block-size: 1.25rem;
-}
-
-.link{
-    text-decoration: none;
-}
-
-.menu ul {
-    display: flex;
-    gap: 2.5rem;
-    list-style: none;
-}
-.menu ul li a{
-    color: var(--black);
-    font: var(--button);
-    opacity: 0.5;
-}
-.menu ul li a.is-active{
-    color: var(--black);
-    opacity: 1;
 }
